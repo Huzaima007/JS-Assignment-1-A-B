@@ -136,10 +136,77 @@
 
 // Question 3
 
-var rules = "Rules for naming JS variables:";
-var a = " Variable names can only contain: numbers, $ and _";
-var b =
-  " Variables must begin with a letter, $, or _. For example: $name, _name or name";
-var c = " Variable names are case sensitive";
-var d = " Variable names should not be JS keywords";
-console.log(rules + a + b + c + d);
+// var rules = "Rules for naming JS variables:";
+// var a = " Variable names can only contain: numbers, $ and _";
+// var b =
+//   " Variables must begin with a letter, $, or _. For example: $name, _name or name";
+// var c = " Variable names are case sensitive";
+// var d = " Variable names should not be JS keywords";
+// console.log(rules + a + b + c + d);
+
+// Chapter 5
+
+// Question 1
+
+// var num1 = 3;
+// var num2 = 67;
+// var sum = num1 + num2;
+
+// console.log("The sum of " + num1 + " and " + num2 + " is: " + sum);
+
+// Question 2
+
+// ---------------Part 1--------------
+// var num1 = 67;
+// var num2 = 3;
+// var subtration = num1 - num2;
+
+// console.log("The subtration of " + num1 + " and " + num2 + " is: " + subtration);
+
+// ---------------Part 2--------------
+// var num1 = 67;
+// var num2 = 3;
+// var divide = num1 / num2;
+
+// console.log("The divide of " + num1 + " and " + num2 + " is: " + divide);
+
+// ---------------Part 3--------------
+// var num1 = 67;
+// var num2 = 3;
+// var multiply = num1 * num2;
+
+// console.log("The multiply of " + num1 + " and " + num2 + " is: " + multiply);
+// ---------------Part 4--------------
+// var num1 = 3;
+// var num2 = 67;
+// var modulus = num1 % num2;
+
+// console.log("The modulus of " + num1 + " and " + num2 + " is: " + modulus);
+
+// Question 3
+
+// var num;
+// console.log("Value after variable declaration is: " + num);
+// num = 5;
+// console.log("Initial value: " + num);
+// num++;
+// console.log("Value after increment is: " + num);
+// num += 7;
+// console.log("Value after addition is: " + num);
+// num--;
+// console.log("Value after decrement is: " + num);
+// var remainder = num % 3;
+// console.log("The remainder is: " + remainder);
+
+// Question 4
+
+// var ticketPrice = 600;
+// var totalCost = ticketPrice * 5;
+// console.log("Total cost to buy 5 tickets to a movies: " + totalCost + " PKR");
+
+// Question 5
+
+// var number = 8;
+// for (var i = 1; i <= 10; i++) {
+//     console.log(number + " x " + i + " = " + (number * i));
+// }
